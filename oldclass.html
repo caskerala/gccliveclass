@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <link rel="stylesheet" href="Button.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="newclass">
+    <a href="#" type="video/mp4">
+         <button  style=" background-color: rgb(216, 16, 16); color: beige; border-radius: 10px;
+          margin-top: 30px;margin-left: 50px;font-size: 40px;width: 300px; height: 150px; ">ALL LIVE CLASS </button> <br>
+
+      </a>
+    <button class="btn" onclick="gotoLink (this)" value="https://drive.google.com/file/d/1HeXNADVqDGkSnlknpteFsDbDS_EYnJka/view?usp=sharing">CLASS 01</button>
+
+    <button class="btn1" onclick="gotoLink (this)" value="https://drive.google.com/file/d/1oQyeeNct78bnc9R_Z0p9CA7qJfHUgbpP/view?usp=sharing">CLASS 02</button>
+    <button class="btn2" onclick="gotoLink (this)" value="https://drive.google.com/file/d/1zBOgX6golfXQccnJgCZF_tLD4veVzU4a/view?usp=sharing">CLASS 03</button>
+    <button class="btn" onclick="gotoLink (this)" value="https://drive.google.com/file/d/1iydMirGSvft_7d4cuJPRFGzzFjOs2KcA/view?usp=sharing">CLASS 04</button>
+    <button class="btn1" onclick="gotoLink (this)" value="#">CLASS 05</button>
+    <button class="btn2" onclick="gotoLink (this)" value="#">CLASS 06</button>
+    <button class="btn" onclick="gotoLink (this)" value="#">CLASS 07</button>
+    <button class="btn1" onclick="gotoLink (this)" value="#">CLASS 08</button>
+    <button class="btn2" onclick="gotoLink (this)" value="#">CLASS 09</button>
+    <button class="btn" onclick="gotoLink (this)" value="#">CLASS 10</button>
+    <button class="btn1" onclick="gotoLink (this)" value="#">CLASS 11</button>
+    <button class="btn1" onclick="gotoLink (this)" value="#">CLASS 12</button>
+    <button class="btn2" onclick="gotoLink (this)" value="#">CLASS 13</button>
+    <button class="btn" onclick="gotoLink (this)" value="#">CLASS 14</button>
+    <button class="btn1" onclick="gotoLink (this)" value="#">CLASS 15</button>
+
+
+
+</div>
+    <script>
+        function gotoLink(link){
+            console.log(link.value);
+            window.open(link.value);
+        };
+    </script>
+    
+</body>
+</html>
